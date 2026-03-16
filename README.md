@@ -36,16 +36,17 @@ dotenv
 📁 Project Structure
 Spotify-Clone-Backend
 │
-├── controllers
-├── models
-├── routes
-├── middleware
-├── config
-├── uploads
+├── src
+│   ├── controllers
+│   ├── models
+│   ├── routes
+│   ├── middleware
+│   └── config
 │
 ├── server.js
 ├── package.json
 └── README.md
+
 ⚙️ Installation
 
 Clone the repository
