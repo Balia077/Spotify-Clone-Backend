@@ -33,7 +33,9 @@ JWT Authentication
 
 dotenv
 
-📁 Project Structure
+## 📁 Project Structure
+
+```
 Spotify-Clone-Backend
 │
 ├── src
@@ -43,9 +45,11 @@ Spotify-Clone-Backend
 │   ├── middleware
 │   └── config
 │
+├── uploads
 ├── server.js
 ├── package.json
 └── README.md
+```
 
 ⚙️ Installation
 
