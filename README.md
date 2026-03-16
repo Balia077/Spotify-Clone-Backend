@@ -1,7 +1,20 @@
 # 🎧 Spotify Clone Backend
 
+> 🎵 Powering a modern music streaming experience through scalable backend architecture.  
+> 🚧 **Status:** Currently under active development.
+
 A RESTful backend API for a **Spotify-like music streaming application** built using **Node.js, Express.js, and MongoDB**.  
-This project handles authentication, song management, and file uploads for a music platform.
+This project manages authentication, song uploads, and music data for a streaming platform.
+
+---
+
+## 🛠 Tech Stack
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=for-the-badge&logo=mongodb&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Multer](https://img.shields.io/badge/File%20Upload-Multer-blue?style=for-the-badge)
 
 ---
 
@@ -9,22 +22,10 @@ This project handles authentication, song management, and file uploads for a mus
 
 - 🔐 User Authentication (Register & Login)
 - 🎵 Upload and manage songs
-- 📂 File upload support
+- 📂 File upload handling
 - 📡 RESTful API architecture
 - 🗄 MongoDB database integration
-- ⚙️ Environment variable configuration
-
----
-
-## 🛠 Tech Stack
-
-- **Node.js**
-- **Express.js**
-- **MongoDB**
-- **Mongoose**
-- **JWT Authentication**
-- **Multer**
-- **dotenv**
+- ⚙️ Environment-based configuration
 
 ---
 
@@ -56,7 +57,7 @@ Spotify-Clone-Backend
 git clone https://github.com/Balia077/Spotify-Clone-Backend.git
 ```
 
-### 2️⃣ Navigate into project folder
+### 2️⃣ Navigate into the project
 
 ```bash
 cd Spotify-Clone-Backend
@@ -84,21 +85,21 @@ JWT_SECRET=your_secret_key
 
 ---
 
-## ▶️ Run the Server
+## ▶️ Running the Server
 
 ### Development Mode
 
-```bash
+```
 npm run dev
 ```
 
 ### Production Mode
 
-```bash
+```
 npm start
 ```
 
-Server runs on:
+Server runs at:
 
 ```
 http://localhost:5000
@@ -130,10 +131,10 @@ DELETE /api/songs/:id
 
 - 🎧 Playlist creation
 - ❤️ Like / favorite songs
-- ☁️ Cloud storage integration (Cloudinary/AWS)
-- 🔎 Song search functionality
+- 🔎 Search functionality
+- ☁️ Cloud storage integration
 - 📊 Pagination & filtering
-- 🎵 Audio streaming support
+- 🎵 Music streaming support
 
 ---
 
@@ -144,14 +145,13 @@ Feel free to fork the repository and submit a pull request.
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
-
 ## 👨‍💻 Author
 
 **Balaram Das**
 
-GitHub: https://github.com/Balia077
+GitHub:  
+https://github.com/Balia077
+
+---
+
+⭐ If you like this project, consider giving it a **star**!
