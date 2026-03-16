@@ -1,37 +1,32 @@
-🎧 Spotify Clone Backend
+# 🎧 Spotify Clone Backend
 
-A backend API for a Spotify-like music streaming application built with Node.js, Express, and MongoDB.
-This project handles user authentication, song management, and file uploads for a music platform.
+A RESTful backend API for a **Spotify-like music streaming application** built using **Node.js, Express.js, and MongoDB**.  
+This project handles authentication, song management, and file uploads for a music platform.
 
-🚀 Features
+---
 
-🔐 User Authentication (Register & Login)
+## 🚀 Features
 
-🎵 Upload and manage songs
+- 🔐 User Authentication (Register & Login)
+- 🎵 Upload and manage songs
+- 📂 File upload support
+- 📡 RESTful API architecture
+- 🗄 MongoDB database integration
+- ⚙️ Environment variable configuration
 
-📂 File upload support
+---
 
-📡 RESTful API structure
+## 🛠 Tech Stack
 
-🗄 Database integration with MongoDB
+- **Node.js**
+- **Express.js**
+- **MongoDB**
+- **Mongoose**
+- **JWT Authentication**
+- **Multer**
+- **dotenv**
 
-⚙️ Environment variable configuration
-
-🛠 Tech Stack
-
-Node.js
-
-Express.js
-
-MongoDB
-
-Mongoose
-
-Multer (for file uploads)
-
-JWT Authentication
-
-dotenv
+---
 
 ## 📁 Project Structure
 
@@ -51,76 +46,112 @@ Spotify-Clone-Backend
 └── README.md
 ```
 
-⚙️ Installation
+---
 
-Clone the repository
+## ⚙️ Installation
 
+### 1️⃣ Clone the repository
+
+```bash
 git clone https://github.com/Balia077/Spotify-Clone-Backend.git
+```
 
-Go to the project folder
+### 2️⃣ Navigate into project folder
 
+```bash
 cd Spotify-Clone-Backend
+```
 
-Install dependencies
+### 3️⃣ Install dependencies
 
+```bash
 npm install
-🔑 Environment Variables
+```
 
-Create a .env file in the root directory.
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root directory.
 
 Example:
 
+```
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
-▶️ Run the Server
+```
 
-Development mode
+---
 
+## ▶️ Run the Server
+
+### Development Mode
+
+```bash
 npm run dev
+```
 
-Production mode
+### Production Mode
 
+```bash
 npm start
+```
 
-Server will run on:
+Server runs on:
 
+```
 http://localhost:5000
-📡 API Endpoints
-Authentication
+```
+
+---
+
+## 📡 API Endpoints
+
+### Authentication
+
+```
 POST /api/auth/register
 POST /api/auth/login
-Songs
-GET /api/songs
-POST /api/songs/upload
-GET /api/songs/:id
+```
+
+### Songs
+
+```
+GET    /api/songs
+POST   /api/songs/upload
+GET    /api/songs/:id
 DELETE /api/songs/:id
-🧪 Future Improvements
+```
 
-🎧 Playlist creation
+---
 
-❤️ Like / favorite songs
+## 🧪 Future Improvements
 
-☁️ Cloud storage integration
+- 🎧 Playlist creation
+- ❤️ Like / favorite songs
+- ☁️ Cloud storage integration (Cloudinary/AWS)
+- 🔎 Song search functionality
+- 📊 Pagination & filtering
+- 🎵 Audio streaming support
 
-🔎 Search songs
+---
 
-📊 Pagination and filtering
+## 🤝 Contributing
 
-🎵 Streaming support
+Contributions are welcome!  
+Feel free to fork the repository and submit a pull request.
 
-🤝 Contributing
+---
 
-Contributions are welcome!
-Feel free to fork this repo and submit a pull request.
+## 📜 License
 
-📜 License
+This project is licensed under the **MIT License**.
 
-This project is licensed under the MIT License.
+---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Balaram Das
+**Balaram Das**
 
-GitHub:
-https://github.com/Balia077
+GitHub: https://github.com/Balia077
